@@ -1,6 +1,6 @@
-package TechStaff;
-
-import Staff.Employee;
-
-public class DatabaseAdmin extends Employee {
-}
+//package TechStaff;
+//
+//import Staff.Employee;
+//
+//public class DatabaseAdmin extends Employee {
+//}
