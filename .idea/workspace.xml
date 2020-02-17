@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c932b3-47bc-4bee-9d1d-c5f0e81bfae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechStaff/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechStaff/DatabaseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Management/Director.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseAdminTest.can_get_bonus">
+  <component name="RunManager" selected="JUnit.DirectorTest.can_get_bonus">
     <configuration name="DatabaseAdminTest.can_get_bonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,40 +61,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseAdminTest.can_get_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" value="can_get_name" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.can_get_bonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="can_get_bonus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseAdminTest.can_get_ni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.can_get_budget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" value="can_get_ni" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="can_get_budget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseAdminTest.can_get_salary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.can_raise_salary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" value="can_get_salary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatabaseAdminTest.can_raise_salary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InheritanceLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
       <option name="METHOD_NAME" value="can_raise_salary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -105,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.can_get_bonus" />
+        <item itemvalue="JUnit.DirectorTest.can_raise_salary" />
+        <item itemvalue="JUnit.DirectorTest" />
+        <item itemvalue="JUnit.DirectorTest.can_get_budget" />
         <item itemvalue="JUnit.DatabaseAdminTest.can_get_bonus" />
-        <item itemvalue="JUnit.DatabaseAdminTest.can_raise_salary" />
-        <item itemvalue="JUnit.DatabaseAdminTest.can_get_salary" />
-        <item itemvalue="JUnit.DatabaseAdminTest.can_get_ni" />
-        <item itemvalue="JUnit.DatabaseAdminTest.can_get_name" />
       </list>
     </recent_temporary>
   </component>
