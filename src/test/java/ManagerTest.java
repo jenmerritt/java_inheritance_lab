@@ -57,7 +57,7 @@ public class ManagerTest {
     }
 
     @Test
-    public void can_change_name_to_null(){
+    public void cannot_change_name_to_null(){
         manager.setName(null);
         assertEquals("", manager.getName());
     }
