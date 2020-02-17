@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d6c932b3-47bc-4bee-9d1d-c5f0e81bfae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Management/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Management/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Management/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Staff/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
@@ -51,16 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManagerTest.can_raise_salary_will_not_reduce">
-    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InheritanceLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DirectorTest.can_get_bonus">
     <configuration name="DirectorTest.can_get_bonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,11 +67,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectorTest.can_raise_salary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerTest.can_change_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="METHOD_NAME" value="can_raise_salary" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="can_change_name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.can_change_name_to_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="can_change_name_to_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.can_get_bonus" />
+        <item itemvalue="JUnit.ManagerTest.can_change_name_to_null" />
+        <item itemvalue="JUnit.ManagerTest.can_change_name" />
         <item itemvalue="JUnit.ManagerTest.can_raise_salary_will_not_reduce" />
         <item itemvalue="JUnit.ManagerTest.can_raise_salary" />
-        <item itemvalue="JUnit.DirectorTest.can_get_bonus" />
-        <item itemvalue="JUnit.DirectorTest.can_raise_salary" />
-        <item itemvalue="JUnit.DirectorTest" />
       </list>
     </recent_temporary>
   </component>

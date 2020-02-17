@@ -49,4 +49,16 @@ public class ManagerTest {
     public void can_get_bonus(){
         assertEquals(300.00, manager.payBonus(), 0.01);
     }
+
+    @Test
+    public void can_change_name(){
+        manager.setName("Jane");
+        assertEquals("Jane", manager.getName());
+    }
+
+    @Test
+    public void can_change_name_to_null(){
+        manager.setName(null);
+        assertEquals("", manager.getName());
+    }
 }
